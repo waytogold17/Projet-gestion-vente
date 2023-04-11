@@ -1,0 +1,343 @@
+
+
+body{
+
+  background-image: url("/../market/images/03.jpg");
+
+}
+form {
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 530px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: 70px;
+  width: 30vw;
+  margin-left: 35%;
+}
+
+
+.formperso{
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 680px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: 70px;
+  width: 29vw;
+  margin-left: 35%;
+}
+.formtableau{
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 20px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: 70px;
+  width: 30vw;
+  margin-left: 35%;
+}
+
+.formfacture{
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 750px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: 70px;
+  width: 29vw;
+  margin-left: 35%;
+}
+
+.formdetail{
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 350px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: 70px;
+  width: 29vw;
+  margin-left: 35%;
+}
+
+.formclient{
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 405px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: 70px;
+  width: 29vw;
+  margin-left: 35%;
+}
+.formcategorie{
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 180px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: 70px;
+  width: 28.5vw;
+  margin-left: 35%;
+}
+.formfournisseur{
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 550px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: 70px;
+  width: 28.5vw;
+  margin-left: 35%;
+}
+
+.formupdate{
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 700px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: 70px;
+  width: 29vw;
+  margin-left: 35%;
+}
+
+p {
+  color: white;
+  font-weight: 500;
+  opacity: .7;
+  font-size: 1.4rem;
+  margin-bottom: 70px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+  
+a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 12px;
+}
+
+a:hover {
+  text-shadow: 2px 2px 6px #00000040;
+}
+
+a:active {
+  text-shadow: none;
+}
+input {
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  padding: 1rem;
+  width: 300px;
+
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  transition: all .3s;
+  margin-bottom: 2em;
+}
+input[type="submit"]{
+  width: 150px;
+  background-color: lightcoral;
+}
+input[type="reset"]{
+  width: 150px;
+  background-color: lightcoral;
+}
+input:hover,
+input[type="email"]:focus,
+input[type="name"]:focus,
+input[type="password"]:focus{
+  background: rgba(255,255,255,0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+}
+.modifier{
+  margin-right:410px;
+  
+}
+input[type="button"] {
+  margin-top: 10px;
+  width: 150px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+input[type="file"] {
+ margin-top: 10px;
+  width: 320px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 12px;
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+  font-style: calibri;
+  color: white;
+  border-color: transparent;
+
+
+  }
+select:hover,
+select{
+  margin-top: 10px;
+  width: 300px;
+  height: 45px;
+  font-size: 0.9rem;
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+  font-style:italic;
+  color: darkseagreen;
+  border-color: transparent;
+
+}
+
+.avant{
+  align-content:center;
+  width: 100px;
+  text-align: center;;
+  align-items: center;
+  margin-left:40%;
+  height:40px;
+  background-color:green;
+  
+}
+.apres{
+  align-content:center;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left:10%;
+  height:40px;
+  background-color:green;
+  
+  
+}
+
+button{
+  margin-top: 10px;
+  width: 100px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 12px;
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+  font-style: calibri;
+  color: white;
+  border-color: transparent;
+
+}
+fieldset{
+  border-radius: 10px;
+  border-width: 5px;
+  color: white;
+}
+
+.fieldfacture{
+  height: 585px;
+}
+
+.fieldproduit{
+  height: 540px;
+}
+
+
+label{
+  color: white;
+}
+
+table{
+  align-items:center ;
+  align-content: center;
+
+}
+
+::placeholder {
+  color: #fff;
+}

@@ -1,0 +1,98 @@
+#container{
+	background-color: skyblue;
+	margin-left: 100px;
+	margin-right: 100px;
+
+		   }
+
+h1,h2{
+	text-align: center;
+}
+.menu{
+	background-color: skyblue;
+	height: 50px;
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+         }
+.menu li a {
+			text-decoration: none;
+			font-size: 18px;
+			color: white
+		}
+.menu li a:hover{
+					color: darkred;
+					text-decoration: underline;
+
+}
+.partition {
+	  columns: 3;
+	  text-align: justify;
+	  padding: 1rem;
+}
+.t{
+	display: flex;
+	align-items:center ;
+	justify-content: center;
+
+}
+table {
+	border-collapse: collapse;
+	width: 75%;
+
+}
+th,td{
+	border: thin solid red;
+
+}
+th{
+	background-color: yellow;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+form{
+	padding: 10px;
+	width: 500px;
+}
+input{
+	border-radius: 15px;
+}
+label{
+	margin-top: 10px;
+	display: block;
+}
+fieldset{
+	padding: 0 20 px 20px 20px;
+	margin-bottom: 10px;
+	border: 1px solid #DF3DF3F
+	}
+legend{
+	color: #DF3DF3F;
+	font-weight: bold;
+	font-style: italic;
+
+}
+input[type="submit"],input[type="reset"]{
+		width: 100px;
+		margin-left: 5px;
+		box-shadow: 2px 2px 2px #D83F3D;
+}
+input[type="submit"]:hover{
+	background-color: yellow;
+}
+input[type="reset"]:hover{
+	background-color: yellow;
+											}
+footer p{
+	text-align: center;
+	height: 50px;
+	background-color: pink;
+	padding-top: 15px;
+}
+
+
+
+

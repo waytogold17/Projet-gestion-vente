@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mon site </title>
+	<link rel="stylesheet" type="text/css" href="/../market/css/styleS.css">
+	<link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<header>
+		<div class="navbar">
+			<div class="logo"> <a href="/../market/html/sitefinal.html"> SWYPE</a> </div>
+			<ul class="links">
+				<li> <a href="/../market/php/formulaire/categorieForm.php">Catégorie</a>  </li>
+				<li> <a href="/../market/php/formulaire/clientForm.php">client</a>  </li>
+				<li> <a href="/../market/php/formulaire/fournisseurForm.php">fournisseur</a>  </li>
+				<li> <a href="/../market/php/formulaire/factureForm.php">facture</a> </li>
+				<li> <a href="/../market/php/formulaire/produitForm.php">Produits</a> </li>
+			</ul>
+			<a href="/../market/html/inscription.html" class="action_btn">Inscription </a>
+			<a href="/../market/html/connexion.html" class="action_btn">Connexion</a>
+				<div class="toggle_btn">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+		</div>
+		<div class="dropdown_menu">
+				<li> <a href="/../market/php/liste/categorieList.php">liste Catégorie</a>  </li>
+				<li> <a href="/../market/php/liste/clientList.php">liste Client</a>  </li>
+				<li> <a href="/../market/php//liste/fournisseurList.php">liste fournisseur</a>  </li>
+				<li> <a href="/../market/php//liste/factureList.php">liste factures</a> </li>
+				<li> <a href="/../market/php//liste/produitList.php">liste produit</a> </li>
+				
+		</div>
+	</header>
+
+	<main>
+		<section id="hero">
+			<h1>Welcome </h1>
+
+			<p> Bienvenue chez Swype ! Avec nous ne vous inquiétez plus ,or,argent,plom,granite vous spourrez gérer toute l'économie de vos ressources.<br>Qu'est ce que tu attends ? Inscrivez vous vite ! </br></p>
+
+		</section>
+	</main>
+
+	<script>
+		const toggleBtn = document.querySelector('.toggle_btn')
+		const toggleBtnIcon = document.querySelector('.toggle_btn i')
+		const dropDownMenu = document.querySelector('.dropdown_menu')
+
+		toggleBtn.onclick = function(){
+			dropDownMenu.classList.toggle('open')
+			const isOpen = dropDownMenu.classList.contains('open')
+
+			toggleBtnIcon.classList = isOpen
+			? 'fa-solid fa-xmark'
+			: 'fa-solid fa-bars'
+		}
+
+	</script>
+</body>
+</html>
